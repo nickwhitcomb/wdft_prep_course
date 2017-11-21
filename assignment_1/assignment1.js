@@ -2,8 +2,8 @@
 Exercise #1
 Initialize an empty array below in the variable numbers.
 */
-var numbers;
-console.log('hello world')
+var numbers = [];
+console.log("hello world")
 
 /*
 Exercise #2
