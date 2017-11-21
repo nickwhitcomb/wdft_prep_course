@@ -2,7 +2,7 @@
 Exercise #1
 Initialize an empty array below in the variable numbers.
 */
-var numbers = [];
+var numbers = [1,2,3];
 console.log("hello world")
 
 /*
@@ -17,7 +17,7 @@ for(var i=0;i<10;i++){
 
 /*
 Exercise #3
-Test that you used the array push method correctly by printing the sum of the values at position 3 and 6 of the array (use the console.log() function to print to the console). 
+Test that you used the array push method correctly by printing the sum of the values at position 3 and 6 of the array (use the console.log() function to print to the console).
 The outputted value should be 9.
 */
 
@@ -48,6 +48,3 @@ var car;
 Exercise #5
 Give the car object a property called "colour" and assign it the value of "black". Test that your code works correctly by outputting the "colour" property to the console. You should see the value "black" printed out.
 */
-
-
-
