@@ -11,7 +11,7 @@ Using the loop provided for you below, use an array's push method to insert the 
 */
 
 for(var i=0;i<10;i++){
-    //use the array push() method here.
+    numbers.push(0,1,2,3,4,5,6,7,8,9,10);    
 }
 
 
@@ -20,7 +20,7 @@ Exercise #3
 Test that you used the array push method correctly by printing the sum of the values at position 3 and 6 of the array (use the console.log() function to print to the console).
 The outputted value should be 9.
 */
-
+console.log(numbers[3] + numbers[6]);
 
 
 
@@ -30,11 +30,9 @@ Use the console.log() function and the array .pop() to add all the values in the
 */
 
 var sum = 0;
-/* remove this line to uncomment the code block
 while(numbers.length != 0){
-    //write pop function here
+    numbers.pop();
 }
-remove this line to uncomment the code block */
 console.log(sum);
 
 
@@ -42,9 +40,13 @@ console.log(sum);
 Exercise #5
 Create an empty object and assign it to the variable car below.
 */
-var car;
+var car = {};
 
 /*
 Exercise #5
 Give the car object a property called "colour" and assign it the value of "black". Test that your code works correctly by outputting the "colour" property to the console. You should see the value "black" printed out.
 */
+var car = {
+    colour: "black"
+}
+consoe.log(car.colour);
