@@ -23,7 +23,6 @@ The outputted value should be 9.
 console.log(numbers[3] + numbers[6]);
 
 
-
 /*
 Exercise #4
 Use the console.log() function and the array .pop() to add all the values in the array.
@@ -49,4 +48,4 @@ Give the car object a property called "colour" and assign it the value of "black
 var car = {
     colour: "black"
 }
-consoe.log(car.colour);
+console.log(car.colour);
