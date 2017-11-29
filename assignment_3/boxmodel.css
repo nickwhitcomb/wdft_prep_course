@@ -1,0 +1,24 @@
+.box1 {
+    background: darkgray;
+    color: white;
+    width: 200px;
+    padding: 10px 20px;
+    border: 2px dotted;
+    margin-bottom: 30px; 
+}
+
+.box2 {
+    background: lightgrey;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.box3 {
+    width: 200px;
+    border: 10px solid lightgrey;
+}
+
+.small {
+    width: 200px;
+}
