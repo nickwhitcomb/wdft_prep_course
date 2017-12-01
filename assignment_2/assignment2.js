@@ -24,6 +24,22 @@ for (var triangle = "#"; triangle.length < 8; triangle += "#"){
     console.log(triangle);
 }
 
+/* 
+Exercise #2 as listed on the website is different to the Ex # 2 above so here is that one also.
+Write a function that checks whether a number is odd or even.
+*/
+
+function isEven(number) {
+    if (number % 2 == 0) {
+        console.log('the number is even!');
+    }
+    else {
+    console.log('the number is odd!')
+    }
+}
+isEven(2);
+isEven(9); 
+
 /*
 Further Exercises
 Hands On Challenges Below
