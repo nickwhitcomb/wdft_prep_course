@@ -1,0 +1,23 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.floatleft {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#pos2 {
+    position: relative;
+    left: 20px;
+}
+
